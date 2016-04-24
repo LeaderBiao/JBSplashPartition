@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A97A2521CCCF930000E0C99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A97A2511CCCF930000E0C99 /* main.m */; };
+		6A97A2551CCCF930000E0C99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A97A2541CCCF930000E0C99 /* AppDelegate.m */; };
+		6A97A2581CCCF930000E0C99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A97A2571CCCF930000E0C99 /* ViewController.m */; };
+		6A97A25B1CCCF930000E0C99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A97A2591CCCF930000E0C99 /* Main.storyboard */; };
+		6A97A25D1CCCF930000E0C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A97A25C1CCCF930000E0C99 /* Assets.xcassets */; };
+		6A97A2601CCCF930000E0C99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A97A25E1CCCF930000E0C99 /* LaunchScreen.storyboard */; };
+		6A97A26B1CCCF930000E0C99 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A97A26A1CCCF930000E0C99 /* ____Tests.m */; };
+		6A97A2761CCCF930000E0C99 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A97A2751CCCF930000E0C99 /* ____UITests.m */; };
+		6A97A2851CCCF969000E0C99 /* JBClipImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A97A2841CCCF969000E0C99 /* JBClipImageTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A97A2671CCCF930000E0C99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A97A2451CCCF930000E0C99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A97A24C1CCCF930000E0C99;
+			remoteInfo = "闪屏分割";
+		};
+		6A97A2721CCCF930000E0C99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A97A2451CCCF930000E0C99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A97A24C1CCCF930000E0C99;
+			remoteInfo = "闪屏分割";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A97A24D1CCCF930000E0C99 /* 闪屏分割.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "闪屏分割.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A97A2511CCCF930000E0C99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A97A2531CCCF930000E0C99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A97A2541CCCF930000E0C99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A97A2561CCCF930000E0C99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A97A2571CCCF930000E0C99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A97A25A1CCCF930000E0C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A97A25C1CCCF930000E0C99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A97A25F1CCCF930000E0C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A97A2611CCCF930000E0C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A97A2661CCCF930000E0C99 /* 闪屏分割Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "闪屏分割Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A97A26A1CCCF930000E0C99 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		6A97A26C1CCCF930000E0C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A97A2711CCCF930000E0C99 /* 闪屏分割UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "闪屏分割UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A97A2751CCCF930000E0C99 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		6A97A2771CCCF930000E0C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A97A2831CCCF969000E0C99 /* JBClipImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBClipImageTool.h; sourceTree = "<group>"; };
+		6A97A2841CCCF969000E0C99 /* JBClipImageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBClipImageTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A97A24A1CCCF930000E0C99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A97A2631CCCF930000E0C99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A97A26E1CCCF930000E0C99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A97A2441CCCF930000E0C99 = {
+			isa = PBXGroup;
+			children = (
+				6A97A24F1CCCF930000E0C99 /* 闪屏分割 */,
+				6A97A2691CCCF930000E0C99 /* 闪屏分割Tests */,
+				6A97A2741CCCF930000E0C99 /* 闪屏分割UITests */,
+				6A97A24E1CCCF930000E0C99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A97A24E1CCCF930000E0C99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A97A24D1CCCF930000E0C99 /* 闪屏分割.app */,
+				6A97A2661CCCF930000E0C99 /* 闪屏分割Tests.xctest */,
+				6A97A2711CCCF930000E0C99 /* 闪屏分割UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A97A24F1CCCF930000E0C99 /* 闪屏分割 */ = {
+			isa = PBXGroup;
+			children = (
+				6A97A2531CCCF930000E0C99 /* AppDelegate.h */,
+				6A97A2541CCCF930000E0C99 /* AppDelegate.m */,
+				6A97A2561CCCF930000E0C99 /* ViewController.h */,
+				6A97A2571CCCF930000E0C99 /* ViewController.m */,
+				6A97A2591CCCF930000E0C99 /* Main.storyboard */,
+				6A97A2831CCCF969000E0C99 /* JBClipImageTool.h */,
+				6A97A2841CCCF969000E0C99 /* JBClipImageTool.m */,
+				6A97A25C1CCCF930000E0C99 /* Assets.xcassets */,
+				6A97A25E1CCCF930000E0C99 /* LaunchScreen.storyboard */,
+				6A97A2611CCCF930000E0C99 /* Info.plist */,
+				6A97A2501CCCF930000E0C99 /* Supporting Files */,
+			);
+			path = "闪屏分割";
+			sourceTree = "<group>";
+		};
+		6A97A2501CCCF930000E0C99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A97A2511CCCF930000E0C99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A97A2691CCCF930000E0C99 /* 闪屏分割Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6A97A26A1CCCF930000E0C99 /* ____Tests.m */,
+				6A97A26C1CCCF930000E0C99 /* Info.plist */,
+			);
+			path = "闪屏分割Tests";
+			sourceTree = "<group>";
+		};
+		6A97A2741CCCF930000E0C99 /* 闪屏分割UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A97A2751CCCF930000E0C99 /* ____UITests.m */,
+				6A97A2771CCCF930000E0C99 /* Info.plist */,
+			);
+			path = "闪屏分割UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A97A24C1CCCF930000E0C99 /* 闪屏分割 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A97A27A1CCCF930000E0C99 /* Build configuration list for PBXNativeTarget "闪屏分割" */;
+			buildPhases = (
+				6A97A2491CCCF930000E0C99 /* Sources */,
+				6A97A24A1CCCF930000E0C99 /* Frameworks */,
+				6A97A24B1CCCF930000E0C99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "闪屏分割";
+			productName = "闪屏分割";
+			productReference = 6A97A24D1CCCF930000E0C99 /* 闪屏分割.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A97A2651CCCF930000E0C99 /* 闪屏分割Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A97A27D1CCCF930000E0C99 /* Build configuration list for PBXNativeTarget "闪屏分割Tests" */;
+			buildPhases = (
+				6A97A2621CCCF930000E0C99 /* Sources */,
+				6A97A2631CCCF930000E0C99 /* Frameworks */,
+				6A97A2641CCCF930000E0C99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A97A2681CCCF930000E0C99 /* PBXTargetDependency */,
+			);
+			name = "闪屏分割Tests";
+			productName = "闪屏分割Tests";
+			productReference = 6A97A2661CCCF930000E0C99 /* 闪屏分割Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A97A2701CCCF930000E0C99 /* 闪屏分割UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A97A2801CCCF930000E0C99 /* Build configuration list for PBXNativeTarget "闪屏分割UITests" */;
+			buildPhases = (
+				6A97A26D1CCCF930000E0C99 /* Sources */,
+				6A97A26E1CCCF930000E0C99 /* Frameworks */,
+				6A97A26F1CCCF930000E0C99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A97A2731CCCF930000E0C99 /* PBXTargetDependency */,
+			);
+			name = "闪屏分割UITests";
+			productName = "闪屏分割UITests";
+			productReference = 6A97A2711CCCF930000E0C99 /* 闪屏分割UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A97A2451CCCF930000E0C99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Bobby;
+				TargetAttributes = {
+					6A97A24C1CCCF930000E0C99 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 96276M64J8;
+					};
+					6A97A2651CCCF930000E0C99 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 96276M64J8;
+						TestTargetID = 6A97A24C1CCCF930000E0C99;
+					};
+					6A97A2701CCCF930000E0C99 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 96276M64J8;
+						TestTargetID = 6A97A24C1CCCF930000E0C99;
+					};
+				};
+			};
+			buildConfigurationList = 6A97A2481CCCF930000E0C99 /* Build configuration list for PBXProject "闪屏分割" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A97A2441CCCF930000E0C99;
+			productRefGroup = 6A97A24E1CCCF930000E0C99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A97A24C1CCCF930000E0C99 /* 闪屏分割 */,
+				6A97A2651CCCF930000E0C99 /* 闪屏分割Tests */,
+				6A97A2701CCCF930000E0C99 /* 闪屏分割UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A97A24B1CCCF930000E0C99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A97A2601CCCF930000E0C99 /* LaunchScreen.storyboard in Resources */,
+				6A97A25D1CCCF930000E0C99 /* Assets.xcassets in Resources */,
+				6A97A25B1CCCF930000E0C99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A97A2641CCCF930000E0C99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A97A26F1CCCF930000E0C99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A97A2491CCCF930000E0C99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A97A2581CCCF930000E0C99 /* ViewController.m in Sources */,
+				6A97A2851CCCF969000E0C99 /* JBClipImageTool.m in Sources */,
+				6A97A2551CCCF930000E0C99 /* AppDelegate.m in Sources */,
+				6A97A2521CCCF930000E0C99 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A97A2621CCCF930000E0C99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A97A26B1CCCF930000E0C99 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A97A26D1CCCF930000E0C99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A97A2761CCCF930000E0C99 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A97A2681CCCF930000E0C99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A97A24C1CCCF930000E0C99 /* 闪屏分割 */;
+			targetProxy = 6A97A2671CCCF930000E0C99 /* PBXContainerItemProxy */;
+		};
+		6A97A2731CCCF930000E0C99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A97A24C1CCCF930000E0C99 /* 闪屏分割 */;
+			targetProxy = 6A97A2721CCCF930000E0C99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A97A2591CCCF930000E0C99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A97A25A1CCCF930000E0C99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A97A25E1CCCF930000E0C99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A97A25F1CCCF930000E0C99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A97A2781CCCF930000E0C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A97A2791CCCF930000E0C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A97A27B1CCCF930000E0C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "闪屏分割/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JinBiao.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A97A27C1CCCF930000E0C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "闪屏分割/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JinBiao.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6A97A27E1CCCF930000E0C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "闪屏分割Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JinBiao.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/闪屏分割.app/闪屏分割";
+			};
+			name = Debug;
+		};
+		6A97A27F1CCCF930000E0C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "闪屏分割Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JinBiao.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/闪屏分割.app/闪屏分割";
+			};
+			name = Release;
+		};
+		6A97A2811CCCF930000E0C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "闪屏分割UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JinBiao.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "闪屏分割";
+			};
+			name = Debug;
+		};
+		6A97A2821CCCF930000E0C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "闪屏分割UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JinBiao.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "闪屏分割";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A97A2481CCCF930000E0C99 /* Build configuration list for PBXProject "闪屏分割" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A97A2781CCCF930000E0C99 /* Debug */,
+				6A97A2791CCCF930000E0C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A97A27A1CCCF930000E0C99 /* Build configuration list for PBXNativeTarget "闪屏分割" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A97A27B1CCCF930000E0C99 /* Debug */,
+				6A97A27C1CCCF930000E0C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A97A27D1CCCF930000E0C99 /* Build configuration list for PBXNativeTarget "闪屏分割Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A97A27E1CCCF930000E0C99 /* Debug */,
+				6A97A27F1CCCF930000E0C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A97A2801CCCF930000E0C99 /* Build configuration list for PBXNativeTarget "闪屏分割UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A97A2811CCCF930000E0C99 /* Debug */,
+				6A97A2821CCCF930000E0C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A97A2451CCCF930000E0C99 /* Project object */;
+}
